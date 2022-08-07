@@ -2,10 +2,14 @@
 * @Author: wdssean
 * @Date:   2022-08-05 16:27:16
 * @Last Modified by:   wdssean
-* @Last Modified time: 2022-08-07 22:47:08
+* @Last Modified time: 2022-08-07 22:59:23
 */
 *:not(.katex *){
   font-family: monaco;
+}
+.katex-display{
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .header{
   padding: 20px;
