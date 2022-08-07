@@ -2,10 +2,10 @@
 * @Author: wdssean
 * @Date:   2022-08-05 16:27:16
 * @Last Modified by:   wdssean
-* @Last Modified time: 2022-08-06 10:30:07
+* @Last Modified time: 2022-08-07 20:08:14
 */
-*:not(mjx-container *){
-  font-family: Fira Code;
+*:not(.katex *){
+  font-family: monaco;
 }
 .header{
   padding: 20px;
