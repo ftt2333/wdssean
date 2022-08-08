@@ -124,10 +124,25 @@ mt19937 <span class="token function">rnd</span><span class="token punctuation">(
 </div>
 
 </div>
+<div id="comment" style="width:max(350px,80%);margin:20px;"></div>
     </div>
     <div class="footer">
       <div class="footer-cont"></div>
     </div>
   </div>
+  
+  
+  <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+  <script>
+    Waline.init({
+      serverURL: 'https://waline-wdssean.vercel.app',
+      el: '#comment'
+    })
+  </script>
+  
 </body>
 </html>
