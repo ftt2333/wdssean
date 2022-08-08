@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/css/katex.css">
   <link rel="stylesheet" href="/css/prism.css">
   <link rel="stylesheet" href="/js/prism.js">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
   <script src="/js/katex.js"></script>
 <meta name="generator" content="Hexo 5.4.2"></head>
 <body style="height: max-content;">
@@ -51,18 +52,14 @@
     </div>
   </div>
   
-  
-  <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-  />
+  <script src="https://cdn.staticfile.org/twikoo/1.6.4/twikoo.all.min.js"></script>
   <script>
-    Waline.init({
-      serverURL: 'https://waline-wdssean.vercel.app',
+    twikoo.init({
+      envId: 'https://twikoo-wdssean.vercel.app',
       el: '#comment'
     })
   </script>
+  
   
 </body>
 </html>
